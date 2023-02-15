@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
-public class TestJavaClass {
+public class JavaClassTest {
 
     private JavaClass javaClass;
 
