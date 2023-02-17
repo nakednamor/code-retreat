@@ -4,7 +4,7 @@ plugins {
     groovy
 }
 
-group = "org.code.retreat"
+group = "com.retreat.code"
 version = "1.0"
 
 repositories {
@@ -19,6 +19,11 @@ dependencies {
     testImplementation("org.assertj:assertj-core:3.24.2")
     testImplementation("io.strikt:strikt-core:0.34.1")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.9.2")
+
+    testImplementation("org.mockito:mockito-core:5.1.1")
+    testImplementation("org.mockito:mockito-junit-jupiter:5.1.1")
+
+    testImplementation("io.mockk:mockk:1.13.4")
 }
 
 tasks.getByName<Test>("test") {
